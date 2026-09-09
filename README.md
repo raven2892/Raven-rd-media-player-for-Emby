@@ -22,13 +22,13 @@ Raven 的目标，是尽可能把 Emby 媒体库管理、远程播放、本地�
 
 > **Raven 由个人独立开发、测试和维护，并将始终免费提供。**
 
-Bilibili 主页：[https://space.bilibili.com/254066491](https://space.bilibili.com/254066491)
-
-功能展示、使用演示和更新内容将逐步发布在 Bilibili 主页中。
+**Bilibili：** [Raven rd](https://space.bilibili.com/254066491)  
+功能展示、使用演示和后续更新内容将逐步发布于 Bilibili。
 
 ## 主要功能
 
 ### 界面展示
+
 <table>
   <tr>
     <td><a href="assets/CN01.png"><img src="assets/CN01.png" width="100%"></a></td>
@@ -41,6 +41,7 @@ Bilibili 主页：[https://space.bilibili.com/254066491](https://space.bilibili.
     <td></td>
   </tr>
 </table>
+
 ### 客户端
 
 - 连接 Emby 服务器并完成用户登录。
@@ -72,7 +73,8 @@ Bilibili 主页：[https://space.bilibili.com/254066491](https://space.bilibili.
 - 根据当前播放窗口所在显示器读取 Windows HDR、DXGI 色彩空间、适配器和显示设备信息。
 - 支持原生 HDR 输出路径，并根据显示器能力选择相应的 D3D11/libplacebo 输出。
 - Windows HDR 未开启时，支持 HDR 到 SDR 映射，尽量保留高光、对比度和色彩层次。
-- 支持 HDR10、HLG 以及部分 Dolby Vision 信息识别和对应处理路径。
+- 支持 HDR10、HLG，并针对部分 Dolby Vision Profile 提供识别及相应的播放处理路径。
+- 针对 Dolby Vision Profile 8.1 与 Profile 5 提供动态亮度映射等专门的播放优化。
 - 支持 HDR 峰值、输出色彩空间和显示状态等简易播放诊断信息。
 - 支持调用 NVIDIA RTX HDR，用于符合支持条件的非原生 HDR 内容增强。
 - 支持调用 NVIDIA RTX Video Super Resolution（RTX VSR），用于符合支持条件的视频增强。
@@ -85,8 +87,10 @@ Bilibili 主页：[https://space.bilibili.com/254066491](https://space.bilibili.
 - 支持 Windows Spatial Audio 状态识别与空间音频相关播放路径。
 - 支持多声道音频、音轨选择和独立声道音量调节。
 - 支持实时音频电平显示，包括解码后 PCM 声道的 RMS 与峰值信息。
-- 支持对 Dolby Digital Plus、TrueHD 以及对象音频相关系统能力进行检测。
-- 音频能力显示会根据当前系统组件和默认输出设备状态变化，不会强行启用系统不支持的路径。
+- 支持 Dolby Digital Plus、TrueHD 等音频格式的常规解码与多声道播放。
+- 对包含对象音频元数据的部分片源，Raven 会提取可用的对象信息，并在自身播放链路中将其映射至最多 12 声道的输出路径，以尽可能保留原始声场中的空间信息。
+- 该处理方式属于 Raven 自身实现的多声道空间音频方案，并非 Dolby 官方 Atmos 解码、直通或认证实现。
+- 实际输出效果取决于片源、解码路径、Windows Spatial Audio、默认播放设备、驱动及最终音频设备。
 
 ### 界面与个性化
 
@@ -147,7 +151,7 @@ Bilibili 主页：[https://space.bilibili.com/254066491](https://space.bilibili.
 
 ## 问题反馈
 
-提交问题前，请尽量提供以下信息：
+如遇到问题，可通过 GitHub Issues 提交反馈。提交问题前，请尽量提供以下信息：
 
 - Raven 版本号。
 - Windows 版本和系统更新版本。
