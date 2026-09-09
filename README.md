@@ -6,7 +6,7 @@ Raven rd media player for Emby 是一款面向 Windows 的原生第三方 Emby �
 
 ## 关于 Raven
 
-Raven rd media player for Emby 最初源于一个很简单的需求：我一直没能在 Windows 平台上找到一个真正符合自己使用习惯、播放体验也足够满意的 Emby 客户端，因此最后决定自己设计和开发一个。
+Raven rd media player for Emby 最初源于一个很简单的需求：我一直没能在 Windows 平台上找到一个真正符合自己使用习惯、播放体验也足够满意的 Emby 客户端，因此最后决定自己设计和开发一个。播放的体验始终围绕 HDR 展开，其中对 Dolby Vision Profile 8.1 与 Profile 5 片源的处理是重点优化方向之一。经过多轮调整和实际片源测试，目前 Raven 的动态亮度映射在高光控制、暗部细节和整体画面层次方面，已经能够呈现出非常接近苹果设备播放 Dolby Vision 内容时的观感。
 
 从界面设计、播放功能到兼容性测试，Raven 一直由我个人独立完成。项目经历了多个版本的持续迭代、重构和测试，也推翻过不少早期方案。经过不断调整后，现在的 Raven 终于基本定型，已经达到了可以稳定用于日常播放的状态。
 
