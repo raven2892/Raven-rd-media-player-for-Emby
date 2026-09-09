@@ -154,20 +154,22 @@ Raven 将始终免费提供，所有核心功能不会因为是否赞助而受�
 
 ## 第三方组件
 
-Raven 使用或集成了以下开源项目、系统组件和开发工具：
+## 第三方组件
+
+Raven 使用或集成了以下第三方开源项目、系统组件和开发工具：
 
 - .NET 8 与 WPF。
 - libmpv 及其 FFmpeg 解码、滤镜和播放能力。
-- libplacebo，用于视频色彩管理、HDR 和 tone mapping 相关路径。
+- libplacebo，用于视频色彩管理、HDR 和 tone mapping 相关处理。
 - D3D11、DXGI、Windows Core Audio、WASAPI 和 Windows Spatial Audio。
 - Microsoft Windows App SDK、Win2D 和 InteropCompositor 相关组件。
 - Fluent System Icons 字体资源。
 - WiX Toolset 4，用于构建 Windows 安装包。
 - Emby REST API，用于服务器登录、媒体库、媒体详情、播放地址、字幕和播放进度交互。
 
-第三方组件的许可证和版权信息请参阅源码中的 [`NativeAudio/THIRD-PARTY-NOTICES.md`](NativeAudio/THIRD-PARTY-NOTICES.md)、各组件随附的许可证文件以及 [`Assets/Fonts/LICENSE.txt`](Assets/Fonts/LICENSE.txt)。
+Raven 所使用的第三方组件仍归其各自作者或权利人所有，并按照各自适用的许可证条款使用。
 
-Raven 不包含 Emby 服务器，不提供 Emby 服务器端服务，也不修改 Emby 服务端程序。
+Raven 不包含 Emby Server，也不提供或修改 Emby 服务器程序。
 
 ## 免责声明
 
@@ -182,8 +184,6 @@ Raven 不包含 Emby 服务器，不提供 Emby 服务器端服务，也不修�
 
 Copyright © 2026 Raven rd. All rights reserved.
 
-除明确标注为第三方内容的部分外，Raven 的程序代码、界面设计、图标、配置、脚本、文档及其他原创内容均由其各自权利人依法享有相关权利。
-
-未经许可，不得以 Raven 官方版本的名义复制、修改、重新打包或进行误导性分发，也不得使用 Raven 的名称、标识或界面资源冒充官方版本。
-
-Raven 所使用的第三方组件、商标及其他第三方内容仍归其各自权利人所有，并受其相应许可证或使用条款约束。
+- 除明确标注为第三方内容的部分外，Raven 的程序代码、界面设计、图标、配置、脚本、文档及其他原创内容均由其各自权利人依法享有相关权利。
+- 未经许可，不得以 Raven 官方版本的名义复制、修改、重新打包或进行误导性分发，也不得使用 Raven 的名称、标识或界面资源冒充官方版本。
+- Raven 所使用的第三方组件、商标及其他第三方内容仍归其各自权利人所有，并受其相应许可证或使用条款约束。
