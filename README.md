@@ -28,7 +28,15 @@ Raven 的目标，是尽可能把 Emby 媒体库管理、远程播放、本地�
 ## 主要功能
 
 ### 界面展示
-
+<table>
+  <tr>
+    <td><a href="assets/ui-01.png"><img src="assets/ui-01.png" width="100%"></a></td>
+    <td><a href="assets/ui-02.png"><img src="assets/ui-02.png" width="100%"></a></td>
+    <td><a href="assets/ui-03.png"><img src="assets/ui-03.png" width="100%"></a></td>
+    <td><a href="assets/ui-04.png"><img src="assets/ui-04.png" width="100%"></a></td>
+    <td><a href="assets/ui-05.png"><img src="assets/ui-05.png" width="100%"></a></td>
+  </tr>
+</table>
 ### 客户端
 
 - 连接 Emby 服务器并完成用户登录。
