@@ -29,6 +29,14 @@ Feature showcases, usage demonstrations, and future update information will grad
 
 ## Main Features
 
+## Intended Use and STRM Support
+
+Raven is software I developed for my own needs and share free of charge. It primarily serves my personal Emby and NAS setup. Feature decisions and maintenance priorities depend on my actual needs and available time. The project does not promise to accommodate every use case.
+
+**Raven does not support opening or parsing `.strm` files, and there are no plans to add STRM support.** My media files are stored on my own NAS, and I currently have neither a STRM use case nor a suitable testing environment. STRM-based playback setups are therefore outside the scope of this project's compatibility testing and dedicated support. Emby's own support for STRM does not imply that Raven guarantees compatibility with those setups.
+
+If STRM is essential to your needs, please choose another player that explicitly supports it. Constructive, specific feedback is welcome, and I will respond and make improvements as my time and capabilities allow. Baseless accusations, personal attacks, and deliberately provocative comments will not receive a response.
+
 ### Interface Preview
 
 <table>
