@@ -20,7 +20,7 @@ I was previously a Jellyfin user as well, but due to the relatively long stable-
 
 The goal of Raven rd is to bring Emby media library management, remote playback, local media playback, and native Windows audio/video capabilities together in one unified desktop application.
 
-Unlike clients that are essentially web applications wrapped inside a desktop shell, Raven directly uses native Windows windows, D3D11 video output, WASAPI audio, and Windows display device information. This allows it to handle HDR, audio output, subtitles, playback controls, and local media files more directly.
+Unlike clients that are essentially web applications wrapped inside a desktop shell, directly uses native Windows windows, D3D11 video output, WASAPI audio, and Windows display device information. This allows it to handle HDR, audio output, subtitles, playback controls, and local media files more directly.
 
 > **Raven rd is independently developed, tested, and maintained by one person, and will always be provided free of charge.**
 
@@ -33,7 +33,7 @@ Raven rd is software developed around my own personal needs and shared with othe
 
 **Raven rd does not support directly opening or parsing `.strm` files, and there are currently no plans to add this feature.** My media files are stored on my own NAS, and I do not use STRM-based media libraries or have a suitable STRM testing environment. As a result, STRM-based playback workflows are outside the scope of Raven's compatibility testing and dedicated support.
 
-The fact that Emby itself supports STRM does not mean that Raven guarantees compatibility with every STRM-based playback workflow.
+The fact that Emby itself supports STRM does not mean that Raven rd guarantees compatibility with every STRM-based playback workflow.
 
 If STRM support is essential to your setup, please use another player that explicitly supports it.
 
