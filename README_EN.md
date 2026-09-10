@@ -10,7 +10,7 @@ Raven rd media player for Emby started from a very simple need: I had never foun
 
 The playback experience of Raven rd has always been centered around HDR, with Dolby Vision Profile 8.1 and Profile 5 being among the main areas of optimization. After many rounds of adjustment and testing with real-world media, the current dynamic brightness mapping is able to provide highlight control, shadow detail, and overall image depth that, subjectively, comes very close to the experience I get when playing Dolby Vision content on Apple devices.
 
-From interface design and playback features to compatibility testing, Raven has always been developed independently by me. The project has gone through many versions, rewrites, tests, and abandoned early approaches. After continuous refinement, it has now largely reached a stable form and is suitable for everyday use.
+From interface design and playback features to compatibility testing, Raven rd has always been developed independently by me. The project has gone through many versions, rewrites, tests, and abandoned early approaches. After continuous refinement, it has now largely reached a stable form and is suitable for everyday use.
 
 Raven rd originally began as a personal project and a way for me to learn, while also hopefully giving other Windows Emby users another option.
 
