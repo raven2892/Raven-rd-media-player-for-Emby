@@ -4,7 +4,7 @@
 
 Raven rd media player for Emby is a native third-party Emby client and media player for Windows. Its interface is built with WPF and it uses an integrated libmpv playback engine, without relying on WebView, Electron, or an external player window.
 
-## About Raven
+## About
 
 Raven rd media player for Emby started from a very simple need: I could never find an Emby client on Windows that truly matched the way I wanted to use it while also delivering a playback experience I was satisfied with, so I eventually decided to design and build one myself.
 
