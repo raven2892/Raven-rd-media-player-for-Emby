@@ -31,7 +31,7 @@ Feature showcases, usage demonstrations, and future update information will grad
 
 Raven rd is software developed around my own personal needs and shared with others free of charge. It is primarily designed around my own Emby and NAS environment. Feature priorities and maintenance decisions are based on my actual usage requirements and the amount of time I can personally dedicate to the project. It is not intended to support every possible use case.
 
-**Raven rd does not support directly opening or parsing `.strm` files, and there are currently no plans to add this feature.** My media files are stored on my own NAS, and I do not use STRM-based media libraries or have a suitable STRM testing environment. As a result, STRM-based playback workflows are outside the scope of Raven's compatibility testing and dedicated support.
+**Raven rd does not support directly opening or parsing `.strm` files, and there are currently no plans to add this feature.** My media files are stored on my own NAS, and I do not use STRM-based media libraries or have a suitable STRM testing environment. As a result, STRM-based playback workflows are outside the scope of Raven rd's compatibility testing and dedicated support.
 
 The fact that Emby itself supports STRM does not mean that Raven rd guarantees compatibility with every STRM-based playback workflow.
 
